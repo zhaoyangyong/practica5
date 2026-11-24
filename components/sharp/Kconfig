@@ -1,0 +1,6 @@
+menu "Practica 5"
+config SHARP_SAMPLES
+    int "Lecturas por medida"
+    range 1 256
+    default 16
+endmenu
